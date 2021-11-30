@@ -31,7 +31,7 @@ As simple as:
       roles:
          - role: almaops.percona_repo
            percona_repo_configure: true
-           percona_repo_product: "ps80"
+           percona_repo_product: "enable ps-80 release"
 
 License
 -------
