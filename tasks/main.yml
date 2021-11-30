@@ -1,0 +1,13 @@
+---
+- name: "{{ percona_repo_task_prefix }} Install Percona's repository package"
+  apt:
+    deb: "{{ percona_repo_url }}"
+
+- name: "{{ percona_repo_task_prefix }} Run percona-release"
+  command: 'percona-release {{ percona_repo_release }}'
+  when: percona_repo_configure|bool
+
+- name: "{{ percona_repo_task_prefix }} Update APT cache"
+  apt:
+    update_cache: yes
+... 

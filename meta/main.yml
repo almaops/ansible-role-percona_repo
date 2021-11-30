@@ -1,0 +1,18 @@
+galaxy_info:
+  role_name: percona_repo
+  author: Valentin Gostev
+  description: Ansible role to setup Percona software repository
+  license: MIT
+  min_ansible_version: 2.8
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+  galaxy_tags:
+    - percona
+    - database
+    - mysql
+dependencies: []

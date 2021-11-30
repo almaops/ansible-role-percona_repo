@@ -1,0 +1,6 @@
+---
+percona_repo_task_prefix: "=== PERCONA REPO ==="
+percona_repo_url: "https://repo.percona.com/apt/percona-release_latest.generic_all.deb"
+percona_repo_configure: false
+percona_repo_release: "show"
+...
