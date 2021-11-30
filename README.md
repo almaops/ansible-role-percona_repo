@@ -11,7 +11,11 @@ Currently only Debian-based distributions are supported
 Role Variables
 --------------
 
-None
+|Name|Default value|Description|
+|----|-------------|-----------|
+|`percona_repo_url`|`https://repo.percona.com/apt/percona-release_latest.generic_all.deb`|Link to `percona-release` deb package|
+|`percona_repo_configure`|`false`|Whether to run `percona-release`|
+|`percona_repo_release`|`show`|Arguments for `percona-release`|
 
 Dependencies
 ------------
